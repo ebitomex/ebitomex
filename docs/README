@@ -1,0 +1,14 @@
+# eBitom (Governance & Reputation)
+
+## Overview  
+eBitom is a **soul-bound governance token**, meaning it cannot be transferred or sold. It serves as **proof of reputation and stake in the ecosystem**.  
+
+## How It Works  
+- Earned by **contributions** (coding, providing services, governance).  
+- Tied to **Pd4d Protocol**, which ranks users based on participation.  
+- Grants **governance rights** (voting, proposals, rewards).  
+
+## Key Development Areas  
+- **Reputation staking contracts**  
+- **Voting mechanisms** for governance  
+- **Integration into mApp**
