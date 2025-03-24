@@ -1,39 +1,40 @@
-$1,000,000+ USD IN BOUNTIES
+# eBitome
 
-At eBitome, we are building a full ecosystem together, from the ground up. 
-As a contributor, you will help create the infrastructure, smart contracts, wallet integration, reputation system, and decentralized cooperative (dCo) models (the eBitome DAO) To get started with contributing, follow these steps:
+**eBitome** is a decentralized, non-profit platform integrating **tokenized real estate**, **reputation-based governance**, and **a stable digital economy**. It operates on blockchain technology to facilitate cooperative business transactions, decentralized finance (DeFi), and real estate-backed assets.
 
-1. **Clone the eBitome repository** to your local machine to access the source code and begin your contribution.
+## Core Components
 
-```bash
-git clone https://github.com/ebitomex/eBitome.git
-cd eBitome
-```
+1. **[eBit (Stable Token)](docs/eBit.md)**
+2. **[eBitom (Governance & Reputation)](docs/eBitom.md)**
+3. **[eReal (Tokenized Real Estate)](docs/eReal.md)**
+4. **[Pd4d Protocol (Reputation System)](docs/Pd4d.md)**
+5. **[dCo (Decentralized Cooperatives)](docs/dCo.md)**
+6. **[mApp (Frontend & UX)](docs/mApp.md)**
 
-2. **As a contributor**, you will also be setting up and creating the development environment for the eBitome platform. This includes setting up the eReal, **eBitom**, **eBit** tokens, smart contracts, **mApp**, **Pd4d protocol**, and all necessary dependencies for full functionality.
+## Bounties & Contribution
 
-Refer to the [docs/setup.md](docs/setup.md) for detailed instructions on setting up the development environment. This step involves integrating various components of the ecosystem, and you’ll work alongside other contributors to ensure that everything functions cohesively.
+We offer **bounties** in **eReal tokens** to contributors who build and improve eBitome. Contributions are **subject to successful testnet performance and mainnet launch**.  
 
-3. **Contribute to Development**:
-Once your environment is set up, begin contributing by:
-- Implementing **smart contracts** for tokenized real estate (**eReal**) and reputation-based governance (**Pd4d**).
-- Developing the **mApp** frontend for user interaction.
-- Integrating and testing wallet functionalities and token staking systems.
-- Building the decentralized cooperative (dCo) framework and contributing to the architecture of the global lattice.
+### **How to Get Started**
+1. **Review the docs** and choose an area to contribute.
+2. **Join our Telegram**: [@eBitome](https://t.me/eBitome)  
+3. **Fork the Repo** and submit PRs following [Contribution Guidelines](docs/contribution.md).
 
-As the development progresses, contributions will be validated through testnet deployments. Ensure that your contributions are thoroughly tested and meet the required performance benchmarks.
+For full details on how each component works, refer to the docs linked above.
 
-4. **Test and Validate**:
-Test the components you're working on in the **testnet** environment to ensure that they function properly before submitting for code review. This includes:
-- Functional testing of **smart contracts**.
-- Integration testing of the **eWallet** (possibly using **MetaMask**).
-- Testing the reputation system and token distribution.
+---
 
-5. **Submit a Pull Request**:
-After completing a feature or bug fix, submit a pull request (PR) to merge your changes into the main codebase. Be sure to:
-- Document your code clearly.
-- Follow coding standards and ensure all tests pass.
-- Provide a description of the feature or fix and its impact on the overall platform.
+### **docs/eBit.md (Stable Token System)**  
+```md
+# eBit (Stable Token)
 
-6. **Code Review and Approval**:
-Once your pull request is submitted, it will be reviewed by fellow developers for feedback and approval. After passing the review, your changes will be merged, and you'll be one step closer to the successful launch of eBitome.
+## Overview  
+eBit is a **stable digital currency** pegged to the USD through:  
+1. **Cost-based stability** → Prices of goods/services paid in USD.  
+2. **Mint/Burn schedules** → Controlling eBit supply relative to demand.  
+3. **Real estate backing** → Stability tied to **eReal** (tokenized real estate).
+
+## Key Development Areas  
+- **Smart contracts**: Implement eBit’s mint/burn mechanics.  
+- **Exchange mechanism**: Ensure seamless conversion between eBit and eBitom/eReal.  
+
